@@ -1,11 +1,11 @@
 {
   "name": "nodeprojects",
   "version": "1.0.0",
-  "description": "- [📖 File Handling Node](#about-project)   - [🛠 Built With](#built-with)   - [💻 Getting Started ](#-getting-started-)     - [Prerequisites](#prerequisites)     - [Setup](#setup)     - [Install](#install)     - [Start server](#start-server)     - [Test](#to-test-the-app-run-following-command)   - [👤 Author ](#author)   - [🔭 Future Features ](#-future-features-)   - [🤝 Contributing ](#-contributing-)   - [⭐️ Show your support ](#️-show-your-support-)   - [📝 License ](#-license-)",
+  "description": "Practice node.js",
   "main": "dir.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "homepage": "https://github.com/shella12/File_handling_Node#readme",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "uuid": "^9.0.0"
   }
 }
